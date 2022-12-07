@@ -1,0 +1,92 @@
+#main-footer {
+    padding: 18px 0 20px 11px;
+    background-color: #2f2f2f;
+    color: #999999;
+    font-size: 13px;
+}
+
+.logo-footer a {
+    text-decoration: none;
+    color: #999999;
+}
+
+.logo-footer a h1 {
+    font-family: 'Yellowtail', cursive;
+    font-weight: lighter;
+    font-size: 45px;
+    line-height: 20px;
+
+}
+
+.logo-footer a span {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    letter-spacing: 9px;
+    display: block;
+
+}
+
+.social li {
+    float: left;
+    display: inline;
+    margin-right: 7.5px;
+    margin-bottom: 5px;
+}
+
+.social li a {
+    width: 32px;
+    height: 32px;
+    display: block;
+    text-decoration: none;
+    color: #999999;
+    font-size: 30px;
+    margin-left: 15px;
+}
+
+@media (min-width: 992px) {
+    .social {
+        float: right;
+        margin: 34px 0 0 0;
+        padding: 0;
+    }
+}
+
+.social li .bi-facebook:hover{
+    color: #3b5998;
+}
+
+.social li .bi-twitter:hover{
+    color: #00acee;
+}
+
+.social li .bi-youtube:hover{
+    color: #c4302b;
+}
+
+.social li .bi-vimeo:hover{
+    color: #86c9ef ;
+}
+
+.social li .bi-linkedin:hover{
+    color: #f18957;
+}
+
+.social li .bi-instagram:hover{
+    color: #C13584;
+}
+
+.social li .bi-telegram:hover{
+    color: #2AABEE;
+}
+
+.social li .bi-skype:hover{
+    color: #00aff0;
+}
+
+.social li .bi-google:hover{
+    color: #ea4335;
+}
+
+.social li .bi-pinterest:hover{
+    color: #E60023;
+}

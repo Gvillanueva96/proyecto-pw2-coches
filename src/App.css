@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+
+body {
+    font-family: 'Open Sans', sans-serif, Arial;
+    font-size: 14px;
+    line-height: 24px;
+    color: #2d2d2d;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --color1: #2b2d42;
+  --color2: #8d99ae;
+  --color3: #edf2f4;
+  --color4: #ef233c;
+  --color5: #d90429;
+  --color-blanco: #FFFFFF;
+  --color-negro: #000000;
+  --gris-claro: #CCCCCC;
+  --gris-oscuro: #333333;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+  font-weight: 900;
+  /* Grosor o estilo de la fuente */
+  font-size: 36px;
+  letter-spacing: -2px;
+  /* Espaciado entre letras */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h2 {
+  font-weight: 200;
+  font-size: 32px;
+  letter-spacing: -2px;
+  /* Para que se muestren los textos en minúscula */
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 20px;
+  /* Para que se muestren los textos en mayúscula */
+}
+
+.padded {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.pad-top{
+  padding-top: 110px;
+}
+
+.pad-bottom{
+  padding-bottom: 110px;
+}
+
+.list-group-item.active {
+  background-color: var(--color1);
+  border-color: var(--color1);
+}
+.card{
+  height: 100%!important;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+#buscador{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#buscador input{
+  margin-right: 20px;
 }

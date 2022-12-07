@@ -1,0 +1,14 @@
+h4 a{
+    margin: 28px 0 12px 0;
+    display: block;
+    color: #c7081b;
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif, Arial;
+    letter-spacing: -0.5px;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif, Arial;
+}

@@ -1,0 +1,48 @@
+#miscelanea{
+    background-color: #3d3d3d;
+    padding: 47px 0 64px 0;
+    color: #fff;
+    font-size: 14px;
+}
+
+#miscelanea h4{
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+}
+
+#miscelanea a {
+    color: #BEBEBE;
+    text-decoration: underline;
+}
+
+.latest-tweet div  p {
+    color: #fff;
+    padding-left: 27px;
+    line-height: 24px;
+}
+
+.latest-tweet div i {
+    font-size: 16px;
+    padding: 5px 0;
+    float: left;
+}
+
+.footer-contact ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#miscelanea .footer-contact ul li {
+    position: relative;
+    padding-left: 25px;
+}
+
+#miscelanea .footer-contact ul li i {
+    position: absolute;
+    left: 0;
+}

@@ -1,0 +1,50 @@
+#navid{
+    background: rgba(0, 0, 0, 0.65);
+    height: 100px;
+    
+}
+
+.navbar-header{
+    height: 100px;
+    padding-top: 25px;
+    
+}
+
+.derecha{
+    justify-content: flex-end;
+}
+
+.primary_text{
+    font-family: 'Yellowtail', cursive;
+    font-size: 40px;
+    line-height: 20px;
+}
+
+.secondary_text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 9px;
+    display: block;
+    text-align: center;
+}
+
+#navid li{
+    height: 100px;
+    
+}
+
+#navid li a{
+    font-size: 14px;
+    padding: 51px 15px 25px 15px !important;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.3px;
+}
+
+#navid li a:hover{
+    background-color: #c7081b;
+}
+
+.inicio{
+    background-color: #c7081b;
+}
